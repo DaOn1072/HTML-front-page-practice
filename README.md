@@ -41,7 +41,13 @@ html 이론을 더욱 이해하기 위해 실습을 진행했습니다. </br>
 ![Css Logo](https://img.shields.io/badge/Css-6DB33F?style=for-the-badge&logo=Css&logoColor=61DAFB)
 ![Html Logo](https://img.shields.io/badge/Html-777BB4?style=for-the-badge&logo=amazon-html&logoColor=white)
 
-| 관제메인 페이지 | 보호구역 페이지 |
+
+| 원본 화면 | 실습 화면 |
 |:--------:|:--------:|
-| <img src="https://github.com/user-attachments/assets/b1e8086d-d9da-4ff1-bead-2782452e14e2" alt="1 페이지" width="400" /> | <img src="https://github.com/user-attachments/assets/133661d3-7d5b-4f24-8820-df6aa5d8ed82" alt="2 페이지" width="400" /> | 
-| 데이터를 한눈에 볼 수 있도록 모아둔 메인 화면 | 전국 어린이, 노인, 장애인 보호구역 데이터 제공 |
+| <img src="https://github.com/user-attachments/assets/2ca4cf16-15c6-4b01-aaba-1e9ac72b9794" alt="1 페이지" width="400" /> | <img src="https://github.com/user-attachments/assets/a2c71ebe-4ae5-4a85-a963-3c1667211429" alt="2 페이지" width="400" /> | 
+| 2021년 학과 홈페이지 | 리메이크 제작 |
+
+| 원본 화면 | 실습 화면 |
+|:--------:|:--------:|
+| <img src="https://github.com/user-attachments/assets/7018421e-afdb-46f2-a907-a26b70bd2dac" alt="1 페이지" width="400" /> | <img src="https://github.com/user-attachments/assets/23e17159-6d3e-4f00-bd9a-1e73b9de77d5" alt="2 페이지" width="400" /> | 
+| 2021년 학과 홈페이지 | 리메이크 제작 |
