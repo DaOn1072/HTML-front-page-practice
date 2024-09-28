@@ -1,0 +1,166 @@
+/* 게시판/달력 */
+input[type="radio"]{
+    display: none;}
+input[type="radio"]+label{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 28px;
+    margin-left: 43px;
+    width: 206.5px;
+    background: rgb(146, 202, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid rgb(14, 55, 102);
+    
+}
+
+input[type="radio"]:checked + label{
+    background: rgb(98, 100, 211);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.conbox{
+    width: 525px;
+    height: 150px;
+    margin-left: 43px;
+    
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(73, 108, 182);
+    display: none;
+}
+
+
+input[id="tab01"]:checked~ .con1{
+    display: block;
+}
+input[id="tab02"]:checked~ .con2{
+    display: block;
+}
+
+.tab_text{
+    display: block;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-family: "한초롬바탕";
+    color: black;
+    border-bottom: 1px dotted rgb(98, 100, 211);
+}
+
+.tab_text:hover{
+    color: rgb(75, 26, 165);
+}
+.plus{
+    padding: 0px 1px;
+    width: 25px;
+    margin-left: 480px;
+    text-align: center;
+    color: rgb(98, 100, 211);
+}
+
+.plus > a{
+    color: rgb(98, 100, 211);
+    font-weight: bold;
+}
+
+.side_content{
+    background: rgb(210, 220, 231);
+    display: flex;
+    
+}
+
+
+.calendar_bg{
+    position: relative;
+    background: rgb(255, 255, 255);
+    width: 525px;
+    height: 205px;
+    margin-left: 43px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(14, 55, 102);
+}
+
+
+.calendar .date{
+    width: 280px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.calendar .image h3{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(14, 55, 102);
+}
+.calendar .image h2{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(24, 71, 124);
+}
+
+.calendar .date .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar .date .day{
+    font-weight: 600;
+    color: rgb(24, 71, 124);
+   
+}
+
+.calendar .date .days .number{
+    color: rgb(24, 71, 124);
+    font-size: 14px;
+    
+}
+
+.calendar .date .days .day,
+.calendar .date .days .number{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar .date .days .day:first-child,
+.calendar .date .days .number:nth-child(7n+1){
+    color: #f44336;
+    font-weight: 600;
+}
+
+.calendar .date div.number.active,
+.calendar .date div.number:hover{
+    background: rgba(12, 37, 66,.5);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.calendar .image{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 263px;
+    height: 205px;
+    flex: 1;
+    background: url(bg00.jpg);
+    background-size: cover;
+    
+}
+
+

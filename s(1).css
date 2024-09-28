@@ -1,0 +1,67 @@
+/* 헤더영역 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: "한초롬바탕";
+}
+
+.intro_bg{
+    background:rgb(233, 223, 196);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background: rgb(24, 71, 124);
+    height: 48px;
+}
+
+.searchArea{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 48px;
+    margin-left: 30px;
+    
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 400px);
+    line-height: 48px;
+
+    margin-right: 20px;
+}
+
+.header > a{
+    display: flex;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: bold;    
+}
+.nav > li{
+    margin-left: 84px;
+}
+
+.side_bg{
+    display: flex;
+    background: rgb(255, 255, 255);
+    margin: 0px 50px 0px;
+    width: 1420px;
+    height: 1450px;
+    
+}
+

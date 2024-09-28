@@ -1,0 +1,55 @@
+/* 추가 버튼 */
+.side_ba{
+    display: flex;
+    background: blue;
+    width: 1102px;
+    margin-top: 21px;
+    margin-left: 43px;
+}
+
+.side_ba > li{
+    flex: 1;
+    height: 130px;
+    background: url(d.jpg);
+    background-size: cover;
+    
+}
+
+.side_ba > li:not(:last-child){
+    border-right: 43px solid rgb(210, 220, 231);
+}
+
+
+
+.side_ba > li > div{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 20px;
+    background: rgb(24, 71, 124);
+    height: 30px;
+    color: #fff;
+
+}
+
+.fas{
+    font-size: 35px;
+    margin-top: 45px;
+    margin-left: 10px;
+    color: rgb(83, 116, 187);
+}
+
+.fas:hover{
+    color: skyblue;
+}
+
+/* nav ul li a:hover{
+    color: #3e79af;
+} */
+
+.far{
+    margin-left: 105px;
+    font-size: 70px;
+    color: rgb(63, 106, 156);
+}
+
+

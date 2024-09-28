@@ -1,0 +1,174 @@
+/* 메뉴 */
+.sidemenu{
+    width: 200px;
+    height: 1450px;
+    position: absolute;
+    top: 48px;
+    margin: 0 10px;
+    bottom: 0;
+    background: #fff;
+    font-family: "한초롬바탕";
+    font-weight: bold;
+    }
+nav ul{
+    position: relative;
+    list-style-type: none;
+}
+nav ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+}
+
+nav ul ul a{
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+
+.sideba{
+    border-bottom: 1.2px solid rgb(196, 192, 192);
+}
+
+nav ul li a:hover{
+    color: #3e79af;
+}
+
+nav ul ul{
+    position: absolute;
+    left: 200px;
+    width: 180px;
+    top: 0;
+    display: none;
+    background: #5495d3;
+    box-shadow: 1px 1px 5px rgb(19, 82, 153);
+}
+nav ul ul a:hover{
+    background: rgb(24, 71, 124);
+    color: #fff;
+}
+
+nav ul ul span{
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+}
+nav ul .dropdown{
+    position: relative;
+}
+nav ul .dropdown:hover ul{
+    display: initial;
+}
+
+.rs{
+    padding-left: 10px;
+    color: black;
+}
+
+.a{
+    margin: auto;
+    margin-top: 260px;
+    margin-bottom: 22px;
+    width: 92%;
+    height: 130px;
+    background:rgb(104, 202, 231) ;
+}
+.a > h4{
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+}
+p{  
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #fff;
+    font-family: initial;
+}
+.more{
+    padding: 5px 5px;
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: left;
+    border:2px solid white;
+    font-size: 10px;
+    
+}
+.b > h4{
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.b{
+    margin: auto;
+    margin-top: 15px;
+    width: 92%;
+    height: 130px;
+    background: rgb(108, 167, 255);
+}
+
+
+.c{
+    margin: auto;
+    margin-top: 17px;
+    width: 92%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+      
+}
+
+.c0{
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+    color: gray;
+    font-size: 10px;
+}
+
+.c0:hover{
+    color: purple;
+}
+
+
+    
+
+
+.Department_btn{
+
+    margin: auto;
+    padding: 15px 0 15px 5px;
+    background: rgb(204, 204, 204);
+    width: 88.1%;
+    margin-top: 23px;
+    font-size: 15px;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+.Department_btn .D_btn{
+    color: rgb(61, 61, 61);
+    font-weight: lighter;
+}
+
+.Agency_btn{
+
+    margin: auto;
+    padding: 15px 0 15px 5px;
+    background: rgb(204, 204, 204);
+    width: 88.1%;
+    margin-top: 19.5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+.Agency_btn .A_btn{
+    color: rgb(61, 61, 61);
+    font-weight: lighter;
+}
+
