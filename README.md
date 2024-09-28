@@ -38,5 +38,7 @@ html 이론을 더욱 이해하기 위해 실습을 진행했습니다. </br>
 <p></p>
 
 ![JavaScript Logo](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-![React Logo](https://img.shields.io/badge/React-6DB33F?style=for-the-badge&logo=react&logoColor=61DAFB)
-![AWS Logo](https://img.shields.io/badge/Amazon_AWS-777BB4?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Css Logo](https://img.shields.io/badge/Css-6DB33F?style=for-the-badge&logo=Css&logoColor=61DAFB)
+![Html Logo](https://img.shields.io/badge/Html-777BB4?style=for-the-badge&logo=amazon-html&logoColor=white)
+
+
