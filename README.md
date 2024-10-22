@@ -13,7 +13,7 @@
 - [웹 이란?](https://www.notion.so/HTML-10fd543baaca8092abfce849992aa45b?pvs=4)
 - [HTML5](https://www.notion.so/HTML-10fd543baaca80f8ab66f76f8d67ed73?pvs=4)
 - [태그 란?](https://www.notion.so/10fd543baaca80b0a01ce67e6db34188?pvs=4)
-- [레이아웃 이란?]
+- [레이아웃 이란?](https://www.notion.so/c8382815459c451a897ec599e72922e9?pvs=4) 
 </div>
 </details>
 
